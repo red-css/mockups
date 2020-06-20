@@ -321,7 +321,7 @@ header nav a:hover {
     width: 250px;
     left: auto;
     display: none;
-    background: #1d1f21;
+    background: #18191c;
     padding: 0.5rem;
     border: 1px solid #36393a;
     border-radius: 6px;
@@ -361,8 +361,9 @@ header nav a:hover {
 
 .user-menu__id--username {
     font-weight: 600;
-    margin-right: 0.5rem;
+    margin-right: 0.325rem;
     flex: 0;
+    color: #43b581;
 }
 
 .user-menu__id--badges {
@@ -376,7 +377,7 @@ header nav a:hover {
 }
 
 .user-menu__links {
-    border-top: 1px solid #3a3c3f;
+    border-top: 1px solid #262729;
     padding: 0.25rem 0.25rem 0.25rem;
     margin: 0;
 }
@@ -389,8 +390,10 @@ header nav a:hover {
 
 .user-menu__links li a {
     display: block;
-    padding: 0.25rem 0;
-    color: #859291;
+    padding: 0.325rem 0;
+    color: #b9bbbe;
+    font-weight: 600;
+    font-size: 13px;
 }
 
 .user-menu__links li a:hover {
@@ -402,7 +405,7 @@ header nav a:hover {
     flex-wrap: wrap;
     font-size: 12px;
     line-height: 2.0;
-    border-top: 1px solid #3a3c3f;
+    border-top: 1px solid #262729;
     padding: 0.25rem 0.25rem 0;
     justify-content: space-between;
 }
