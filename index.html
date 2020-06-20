@@ -36,49 +36,46 @@
                 </div>
             </div>
             <div class='header__alerts'>
-                <label for='toggle-right-sidebar' class='toggle-notifications-button' title='Alerts'></label>
+                <label for='toggle-right-sidebar' class='toggle-alerts-button' title='Alerts'></label>
             </div>
-            <div class='header__user'>
-                <a href="#" title='User'>user</a>
-            </div>
+            <form class='header__user'>
+                <label for='toggle-user-menu' class='toggle-user-menu-button' title='User Menu'></label>
+                <input id='toggle-user-menu' type='checkbox'>
+                <div class='user-menu'>
+                    <div class='user-menu__id'>
+                        <div class='user-menu__id--username'>Username</div>
+                        <div class='user-menu__id--badges'><span class='badge--donor'></span></div>
+                        <div class='user-menu__id--class'>Elite</div>
+                    </div>
+                    <ul class='user-menu__links'>
+                        <li><a href='#'>Inbox</a></li>
+                        <li><a href='#'>Bookmarks</a></li>
+                        <li><a href='#'>Notifications</a></li>
+                        <li><a href='#'>Subscriptions</a></li>
+                        <li><a href='#'>Comments</a></li>
+                    </ul>
+                    <ul class='user-menu__links'>
+                        <li><a href='#'>Your Settings</a></li>
+                        <li><a href='#'>Your Uploads</a></li>
+                        <li><a href='#'>Your Posts</a></li>
+                        <li><a href='#'>Your Friends</a></li>
+                        <li><a href='#'>Logout</a></li>
+                    </ul>
+                    <div class='stats'>
+                        <div class='stats--'>Up: <span>3.54 TiB</span></div>
+                        <div class='stats--'>Down: <span>7.08 TiB</span></div>
+                        <div class='stats--'>Buffer: <span>-3.54 TiB</span></div>
+                        <div class='stats--'>Ratio: <span>0.50</span></div>
+                        <div class='stats--'>Tokens: <span>4</span></div>
+                    </div>
+                </div>
+            </form>
         </header>
     </div>
 
     <div class='application-main'>
         <div class='main'>
-            <aside class='sidebar-left'>
-                <div class='sidebar-left__user'>
-                    <div class='sidebar-left__user--image'>
-                        <img src='' alt='' />
-                    </div>
-                    <div class='sidebar-left__user--content'>
-                        <a href='#'>Username</a>
-                        <span>Elite</span>
-                    </div>
-                    <div class='sidebar-left__user--toggle'>
-                        <label></label>
-                    </div>
-                    <form>
-                        <ul>
-                            <li>Your Settings</li>
-                            <li>Your Uploads</li>
-                            <li>Your Posts</li>
-                            <li>Your Friends</li>
-                            <li>Logout</li>
-                        </ul>
-                    </form>
-
-                </div>
                 
-                <ul>
-                    <li>Inbox</li>
-                    <li>Bookmarks</li>
-                    <li>Notifications</li>
-                    <li>Subscriptions</li>
-                    <li>Comments</li>
-                </ul>
-
-            </aside>
             <div class='content'>
                 <h1>Content</h1>
                 <div>
