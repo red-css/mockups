@@ -654,7 +654,7 @@ header {
 .tabs .active span {
     opacity: 0.7 !important;
 }
-
+/*
 .tab-bookmark span,
 .tab-edit span,
 .tab-community span,
@@ -685,7 +685,7 @@ header {
 .tab-view span {
     background-image: url('../img/view.svg');
 }
-
+*/
 .tabs a span {
     position: relative;
 }
