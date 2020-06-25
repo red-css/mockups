@@ -186,10 +186,18 @@ border-radius: 5px;
 }
 
 aside .box {
- margin-bottom: 30px;
+  background: #292b2f;
+  padding: 7px;
+  border: 1px solid #202225;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 
+
+
+
 aside h3 {
+    margin: 0 0 7px 0;
  text-transform: uppercase;
  font-size: 12px;
  color: #737679
@@ -292,7 +300,6 @@ min-width: calc(50% - 20px);
     min-width: 200px;
        max-width: 200px;
     padding-top: 32px;
-    padding: 32px 3px;
 }
 
 
@@ -648,6 +655,7 @@ header {
     opacity: 0.7 !important;
 }
 
+.tab-bookmark span,
 .tab-edit span,
 .tab-community span,
 .tab-view span {
@@ -663,6 +671,9 @@ header {
     transition: .1s linear all;
 }
 
+.tab-bookmark span {
+    background-image: url('../img/bookmark.svg');
+}
 
 .tab-edit span {
     background-image: url('../img/manage.svg');
@@ -673,7 +684,63 @@ header {
 }
 .tab-view span {
     background-image: url('../img/view.svg');
+}
 
+.tabs a span {
+    position: relative;
+}
+
+.bookmarked:hover {
+    border-color: #cc5b5b !important;
+}
+.bookmarked span {
+    opacity: 1 !important;
+}
+
+.tabs span::after {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    top: -40px;
+    font-size: 14px;
+    text-indent: 0;
+    width: auto;
+    color: #ccc;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    white-space: nowrap;
+    opacity: 0;
+    transition: .1s linear opacity;
+    line-height: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #434649;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .2);
+}
+
+.tab-edit span::after {
+    content: 'Manage';
+}
+
+.tab-community span::after {
+    content: 'Explore';
+}
+
+.tab-view span::after {
+    content: 'View';
+}
+
+.tabs .active span::after {
+    display: none !important;
+}
+
+.bookmarked span::after {
+    content: 'Remove bookmark';
+}
+
+.tabs a:hover span::after {
+    display: block;
+    opacity: 1;
 }
 
 .tabs a:hover span {
