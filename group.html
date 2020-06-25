@@ -8,7 +8,7 @@
     <meta name="robots" content="index, follow">
     <link href="css/normalize.css" media="all" rel="stylesheet" type="text/css" />  
     <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />  
-
+</head>
 <body>
     <div class='header-wrapper'>
         <form class='header-form'>
@@ -82,56 +82,125 @@
 
                 <div class='content__head'>
                     <div class='content__head--top'>
-                        <div class='album-desc'>
-                            <div class='title1'>Harrison: Violin Concerto, Grand Duo & Double Music</div>
-                            <div class='title2'>John Cage & Lou Harrison performed by Various Artists under Angel Gil-Ordonez</div>
-                            <div class='title3'><span>2017</span><span>Album</span></div>
+                        <div class='main-width'>
+                            <div class='album-art'><img src='https://i.imgur.com/tlSwrzu.jpg' alt='album title' /></div>
+                            <div class='album-desc'>
+                                <div class='title1'>Harrison: Violin Concerto, Grand Duo & Double Music</div>
+                                <div class='title2'><a href="#">John Cage</a> & <a href="#">Lou Harrison</a> performed by Various Artists under <a href="#">Angel Gil-Ordonez</a></div>
+                                <div class='title3'>
+                                    <div class='album-info'>
+                                        <span>2017</span> <span>Album</span> <button class='button'>Bookmark</button>
+                                    </div>
+                                    <div class='tabs'>
+                                        <a href="#" class='tab-edit'><span>Edit</span></a>
+                                        <a href="#" class='tab-community'><span>Community</span></a>
+                                        <a href="#" class='tab-view active'><span>View</span></a>
+                                    </div>
+                                </div>
+
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class='content__head--bottom'>
+                        <div class='main-width'>
+                            <div class='taglist'>
+                                <div class='tag'><a href="#">electronica</a><button></button></div>
+                                <div class='tag'><a href="#">singer.songwriter</a><button></button></div>
+                                <div class='tag'><a href="#">folk</a><button></button></div>
+                                <div class='tag'><a href="#">childrens</a><button></button></div>
+                                <div class='tag--add'><button>+</button></div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 
                 <div class='content__body'>
                     <div class='two-column'>
-                
+                        
+                        <aside class='thin-left-sidebar'>
+                            <div class='box artist-list'>
+                                <h3>Artists</h3>
+                                <ul>
+                                    <li><a href="#">Lou Harrison</a></li>
+                                    <li><a href="#">John Cage</a></li>
+                                </ul>
+                            </div>
+
+                            
+                            <div class='box filters'>
+                                <h3>Filters</h3>
+                                <ul>
+                                    <li><input type="search" placeholder="Label" /></li>
+                                    <li><input type="search" placeholder="Files" /></li>
+                                </ul>
+                            </div>
+
+
+                        </aside>
+
                         <div class='content-width'>
 
                             <nav class='breadcrumb'>
-                                <h2>What are we doing here</h2>
                             </nav>
 
-                            damned if I know
+
+                            <div class='actions'>
+                                <button class='button'>Request Format</button>
+                                <button class='button'>Add Format</button>
+                            </div>
+                            
+                            <div class='t-group'>
+                                <h3>
+                                    <span class='label'>InsideOut Music</span>
+                                    <span class='little-bold-thing'>2014</span>
+                                    <span class='little-bold-thing'>WEB</span>
+                                </h3>
+                                <div class='t-row'>
+                                    <div class='t-row-info'><a href='#'>FLAC / Lossless</a></div>
+                                    <div class='t-row-stats'>
+                                        <span class='snatches'>129</span>
+                                        <span class='seeds'>128</span>
+                                        <span class='leeches'>2</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='t-group'>
+                                <h3>
+                                    <span class='label'>InsideOut Music / IOMCD 400</span>
+                                    <span class='little-bold-thing'>2014</span>
+                                    <span class='little-bold-thing'>CD</span>
+                                </h3>
+                                <div class='t-row'>
+                                    <div class='t-row-info'><a href='#'>FLAC / Lossless / Log (100%) / Cue</a></div>
+                                    <div class='t-row-stats'>
+                                        <span class='snatches'>53</span>
+                                        <span class='seeds'>3</span>
+                                        <span class='leeches'>4</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='t-group'>
+                                <h3>
+                                    <span class='label'>InsideOutMusic / Remastered</span>
+                                    <span class='little-bold-thing'>2020</span>
+                                    <span class='little-bold-thing'>WEB</span>
+                                </h3>
+                                <div class='t-row'>
+                                    <div class='t-row-info'><a href='#'>FLAC / 24bit Lossless</a></div>
+                                    <div class='t-row-stats'>
+                                        <span class='snatches'>3</span>
+                                        <span class='seeds'>0</span>
+                                        <span class='leeches'>0</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
                         </div>
 
-                        <aside class='content-depth'>
-                            <div class='box'>
-                                <div class='album-art'><img src='https://i.imgur.com/tlSwrzu.jpg' alt='album title' /></div>
-                            </div>
-                            
-                            <div class='box'>
-                                <h3>Artists</h3>
-                                <div class='artist-list'>
-                                    <ul>
-                                        <li><a href="#">Lou Harrison</a></li>
-                                        <li><a href="#">Garth Brooks</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            
-                            <div class='box'>
-                                <h3>Tags</h3>
-                                <div class='taglist'>
-                                    <div class='tag'>electronica<button></button></div>
-                                    <div class='tag'>singer.songwriter<button></button></div>
-                                    <div class='tag'>folk<button></button></div>
-                                    <div class='tag'>childrens<button></button></div>
-                                    <div class='tag--add'><button>+</button></div>
-                                </div>
-                            </div>
-
-                            <div class='box'>
-                                <h3>Votes</h3>
-                            </div>
-                        </aside>
                     </div>
                 </div>
 
